@@ -1,8 +1,13 @@
 /**************** extend css start ****************/
 @import url("https://fonts.googleapis.com/css?family=Anton|Poppins:300,400,500,600,700&display=swap");
 /* line 6, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_extends.scss */
+hr {
+width: 900px;
+padding-bottom: 3%;
+}
+
 .btn_1 {
-  background-image: linear-gradient(to right, #5338b7 0%, #4138b7 50%, #5338b7 100%);
+  background-image: linear-gradient(to right, #798F8C 0%, #798F8C 50%, #45535E 100%);
 }
 
 /**************** extend css start ****************/
@@ -319,7 +324,7 @@ button:focus,
   left: 0px;
   width: 100%;
   height: 8px;
-  background-color: #7a73cc;
+  background-color: #D8EBE9;
   bottom: 0;
   z-index: -1;
 }
@@ -590,8 +595,8 @@ ul {
 /* line 59, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_button.scss */
 .btn_2:hover {
   color: #fff !important;
-  background-color: #4438b7;
-  border: 1px solid #4438b7;
+  background-color: #45535E;
+  border: 1px solid #45535E;
 }
 
 @media (max-width: 991px) {
@@ -2375,7 +2380,7 @@ ul {
 
 /* line 150, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_menu.scss */
 .main_menu .off-canven-menu a:hover {
-  color: #4438b7;
+  color: #D8EBE9;
 }
 
 /* line 153, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_menu.scss */
@@ -2416,7 +2421,7 @@ ul {
   bottom: 17px;
   width: 100%;
   height: 8px;
-  background-color: #9182ce;
+  background-color: #798F8C;
   content: "";
   z-index: -1;
   opacity: 0;
@@ -2539,7 +2544,7 @@ ul {
 /**************** banner part css start ****************/
 /* line 2, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_banner.scss */
 .banner_part {
-  height: 1000px;
+  height: 1200px;
   position: relative;
   background-image: url(../img/banner_bg_1.png);
   background-repeat: no-repeat;
@@ -2552,9 +2557,11 @@ ul {
 @media (max-width: 575px) {
   /* line 2, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_banner.scss */
   .banner_part {
-    height: 650px;
+    height: 700px;
+    background-position-x: -450px;
+    background-position-y: 50px;
     background-size: cover;
-  }
+  } 
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2562,6 +2569,9 @@ ul {
   .banner_part {
     height: 700px;
     background-size: cover;
+    height: 700px;
+    background-position-x: -300px;
+    background-position-y: 50px;
   }
 }
 
@@ -2570,6 +2580,7 @@ ul {
   .banner_part {
     height: 700px;
     background-size: cover;
+    background-position-x: -100px;
   }
 }
 
@@ -2579,6 +2590,7 @@ ul {
     height: 700px;
     background-size: cover;
     background-position: center bottom;
+    
   }
 }
 
@@ -2586,6 +2598,19 @@ ul {
   /* line 2, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_banner.scss */
   .banner_part {
     background-size: cover;
+    height: 700px;
+    background-position-x: ;
+    background-position-y: ;
+    
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 2000px) {
+  /* line 2, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_banner.scss */
+  .banner_part {
+    background-size: cover;
+    height: 900px;
+   
   }
 }
 
@@ -2599,7 +2624,7 @@ ul {
   background-size: contain;
   top: 0;
   z-index: -1;
-  background: url(../img/banner_bg.png) top left no-repeat;
+  background: url(../img/entrenemos.png) top left no-repeat;
 }
 
 @media (max-width: 991px) {
@@ -2652,6 +2677,7 @@ ul {
   width: 100%;
   height: 1000px;
   padding-top: 40px;
+ 
 }
 
 /* line 74, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_banner.scss */
@@ -2700,11 +2726,13 @@ ul {
   line-height: 1.8;
   color: #1f1b1b;
   font-size: 15px;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
 /* line 104, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_banner.scss */
 .banner_part .banner_text h5 {
-  color: #8782ce;
+  color: #798F8C;
   font-size: 25px;
   font-family: "Poppins", sans-serif;
   margin-bottom: -10px;
@@ -2735,7 +2763,7 @@ ul {
   left: 3px;
   width: 99%;
   height: 25px;
-  background-color: #8782ce;
+  background-color: #D8EBE9;
   bottom: 21px;
   z-index: -1;
 }
@@ -2755,7 +2783,7 @@ ul {
     left: 0;
     width: 100%;
     height: 10px;
-    background-color: #8782ce;
+    background-color: #D8EBE9;
     bottom: 8px;
     z-index: -1;
   }
@@ -2776,7 +2804,7 @@ ul {
     left: 0;
     width: 100%;
     height: 10px;
-    background-color: #8782ce;
+    background-color: #D8EBE9;
     bottom: 8px;
     z-index: -1;
   }
@@ -2828,8 +2856,8 @@ ul {
 /* line 20, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_client_part.scss */
 .client_part .single_client_logo img:hover {
   filter: grayscale(0);
-  -webkit-filter: grayscale(0);
-  transition: 0.5s ease-in-out;
+  -webkit-filter: grayscale();
+  transition: 0.2s ease-in-out;
 }
 
 /**************** about css start ****************/
@@ -2842,7 +2870,14 @@ ul {
 @media (max-width: 991px) {
   /* line 2, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_about.scss */
   .about_part {
-    padding: 0;
+    padding-top: 10%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 3000px){
+  /* line 2, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_about.scss */
+  .about_part {
+    padding-top: 5%;
   }
 }
 
@@ -2929,7 +2964,7 @@ ul {
   left: 1px;
   width: 99%;
   height: 8px;
-  background-color: #7a73cc;
+  background-color: #D8EBE9;
   bottom: 5px;
   z-index: -1;
 }
@@ -2973,7 +3008,7 @@ ul {
 .about_part .about_text .about_text_iner {
   position: relative;
   padding-left: 30px;
-  border-left: 5px solid #4438b7;
+  border-left: 5px solid #45535E;
   margin-top: 19px;
   margin-bottom: 46px;
 }
@@ -3191,15 +3226,15 @@ ul {
 .skil_part:after {
   position: absolute;
   right: 0;
-  width: 43%;
+  width: 50%;
   height: 90%;
-  background-image: url(../img/skil_bg.png);
+  background-image: url();
   background-size: contain;
   background-position: right;
   content: "";
   background-repeat: no-repeat;
   z-index: -1;
-  top: 14%;
+  top: -5%;
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1658px) {
@@ -3226,7 +3261,7 @@ ul {
   width: 100%;
   height: 85%;
   top: 0;
-  background-image: url(../img/Skills.png);
+  background-image: url();
   background-size: contain;
   background-position: left;
   content: "";
@@ -3461,7 +3496,7 @@ ul {
   width: 100%;
   height: 100%;
   top: 0;
-  background-image: url(../img/Portfolio.png);
+  background-image: url(../img/mis-planes.png);
   background-size: contain;
   background-position: right;
   content: "";
@@ -3493,7 +3528,7 @@ ul {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #4438b7;
+  background-color: #798F8C;
   z-index: -1;
   opacity: 0;
   -webkit-transition: 0.5s;
@@ -5299,6 +5334,7 @@ h6 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 300px;
 }
 
 /* line 5, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_breadcrumb.scss */
@@ -5327,9 +5363,9 @@ h6 {
 /* line 21, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_breadcrumb.scss */
 .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
   color: #000000;
-  font-size: 100px;
+  font-size: 50px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 180px;
   text-transform: capitalize;
 }
 
